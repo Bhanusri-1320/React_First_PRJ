@@ -67,3 +67,27 @@ Next.js is a popular React framework that provides an opinionated set of tools t
 ###  What is Angular?
 Angular is a full-fledged frontend framework developed and maintained by Google. Unlike React (which is just a UI library), Angular comes with everything you need to build a large-scale application out of the box.
 
+
+# 🧠 In React:
+- You don’t deal directly with the DOM (like document.querySelector() or document.createElement()).
+- Instead, you build components — small, reusable chunks of UI.
+- React handles turning your components into real DOM elements behind the scenes using something called the Virtual DOM.
+
+# 🔁 So the full cycle looks like:
+
+  Your Component Code (JSX)
+        ⬇
+  React builds Virtual DOM
+        ⬇
+  React compares to previous VDOM
+        ⬇
+  React updates Real DOM efficiently
+
+# Components:
+- they help us to write reusable, modular and better organized code.
+  ## Modular means:
+     - Modular code means writing your code in small, self-contained pieces (modules) that each do one thing well and can be reused anywhere.
+
+- we will create all the components induvidullay and combined to create the app.
+- a react application is a tree of components with app being the root
+- ![alt text](image-1.png)
